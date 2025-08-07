@@ -5,20 +5,6 @@ Aplicación desarrollada en Angular. Su objetivo es servir como ejemplo educativ
 
 ## Instrucciones de uso
 
-1. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-2. **Start development server:**
-   ```bash
-   npm start
-   ```
-3. **Run unit tests:**
-   ```bash
-   npm test
-
-## Instrucciones de uso
-
 2. **Iniciar el servidor de desarrollo:**
    ```bash
    npm start
