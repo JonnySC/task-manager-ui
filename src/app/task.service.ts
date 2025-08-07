@@ -15,7 +15,7 @@ export interface TaskItem {
   providedIn: 'root'
 })
 export class TaskService {
-  private apiUrl = 'http://localhost:5210/api/task';
+  private apiUrl = 'http://localhost:5184/api/task';
 
   constructor(private http: HttpClient) { }
 
