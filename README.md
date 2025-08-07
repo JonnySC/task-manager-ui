@@ -57,3 +57,42 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## Usage Instructions
+
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+2. **Start development server:**
+   ```bash
+   npm start
+   ```
+3. **Run unit tests:**
+   ```bash
+   npm test
+   ```
+4. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+For more details, see the sections above.
+
+## Author
+
+Proyecto desarrollado por **Jonathan Salas** (@IngenieroTrip).
+
+## License
+
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License. You are free to use, share, and adapt the code for educational and non-commercial purposes. Commercial use is not permitted.
+
+See [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) for details.
+
+## Follow IngenieroTrip
+
+¡Sígueme en redes sociales para más contenido educativo y proyectos!
+
+- Instagram: [@ingenierotrip](https://instagram.com/elingenierotrip)
+- YouTube: [IngenieroTrip](https://youtube.com/@MichiingenieroOficial)
+- TikTok: [@ingenierotrip](https://tiktok.com/@elingenierotrip)
