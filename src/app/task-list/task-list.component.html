@@ -1,0 +1,25 @@
+<div class="task-list-container">
+  <h2>Lista de Tareas</h2>
+  <button class="add-btn" (click)="selectedTask = null">Agregar nueva tarea</button>
+
+  <ul class="task-list">
+    <li *ngFor="let task of tasks" [class.completed]="task.isCompleted">
+      <div class="task-info">
+        <span class="task-title">{{ task.title }}</span>
+        <span class="task-date">{{ task.createdAt | date:'short' }}</span>
+      </div>
+      <div class="task-actions">
+        <button (click)="editTask(task)">Editar</button>
+        <button (click)="deleteTask(task.id!)" [disabled]="task.id == null">Eliminar</button>
+      </div>
+      <div class="task-desc">{{ task.description }}</div>
+    </li>
+  </ul>
+
+  <div *ngIf="selectedTask !== null">
+    <app-task-form [task]="selectedTask" (saved)="onTaskSaved($event)"></app-task-form>
+  </div>
+  <div *ngIf="selectedTask === null">
+    <app-task-form (saved)="onTaskSaved($event)"></app-task-form>
+  </div>
+</div>
